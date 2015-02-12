@@ -53,7 +53,7 @@ module.exports = yeoman.generators.Base.extend({
       this.copy('background.jpg', 'public/img/background.jpg');
 
       this.mkdir('routes');
-      this.copy('routes.js', 'routes.js');
+      this.copy('routes.js', 'routes/routes.js');
 
       this.mkdir('views');
       this.copy('index.ejs', 'views/index.ejs');
