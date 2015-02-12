@@ -39,7 +39,7 @@ yo login
 
 Finally, run app, first configure file config.json with user.name, user.password
 ```bash
-node users/generar_usuario.js
+node models/generar_usuario.js
 node server.js
 ```
 
