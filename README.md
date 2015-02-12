@@ -1,15 +1,12 @@
-# generator-login [![Build Status](https://secure.travis-ci.org/lmokto/generator-login.png?branch=master)](https://travis-ci.org/lmokto/generator-login)
+### generator-login
 
 > [Yeoman](http://yeoman.io) generator
-
 
 ## Getting Started
 
 ### What is Yeoman?
 
 Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
 
 Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
 
@@ -29,10 +26,21 @@ To install generator-login from npm, run:
 npm install -g generator-login
 ```
 
-Finally, initiate the generator:
+Created folder container app-login.
+```bash
+mkdir app-login && cd $_
+```
+
+Initiate the generator:
 
 ```bash
 yo login
+```
+
+Finally, run app, first configure file config.json with user.name, user.password
+```bash
+node users/generar_usuario.js
+node server.js
 ```
 
 ### Getting To Know Yeoman

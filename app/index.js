@@ -34,7 +34,6 @@ module.exports = yeoman.generators.Base.extend({
 
     app: function () {
       
-      this.mkdir("app-login");
       this.copy('server.js', 'server.js');
 
       this.mkdir('lib');
