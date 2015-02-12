@@ -1,0 +1,30 @@
+
+bower.json
+config.json
+Gruntfile.js
+package.json
+Procfile
+server.js
+treeapp.log
+
+./controllers:
+	auth.js
+
+./lib:
+	passport.js
+
+./models:
+	generar-usuario.js
+	user.js
+
+./public:
+	favicon.ico
+	img
+		background.jpg
+
+./routes:
+	routes.js
+
+./views:
+	index.ejs
+	login.ejs

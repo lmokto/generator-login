@@ -1,0 +1,23 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "db": {
+    "name": "app-login",
+    "host": "localhost",
+    "url": ""
+  },
+  "user":{ 
+    "name": "",
+    "password": ""
+  },
+  "heroku":{ 
+    "email": "",
+    "password": ""
+  },
+  "mongolab":{
+    "email": "",
+    "username":"",
+    "password": "",
+    "url": ""
+  }
+}
